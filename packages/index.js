@@ -1,11 +1,21 @@
 // 导入颜色选择器组件
 import XhButton from './xh-button'
 import XhIcon from './xh-icon'
+import XhDateType from './xh-date-type'
+import XhProgress from './xh-progress'
+import XhPie from './xh-pie'
+import XhLine from './xh-line'
+import XhBar from './xh-bar'
 
 // 存储组件列表
 const components = [
   XhButton,
-  XhIcon
+  XhIcon,
+  XhDateType,
+  XhProgress,
+  XhPie,
+  XhLine,
+  XhBar
 ]
 
 // 定义 install 方法，接收 Vue 作为参数。如果使用 use 注册插件，则所有的组件都将被注册
@@ -26,5 +36,10 @@ export default {
   install,
   // 以下是具体的组件列表
   XhButton,
-  XhIcon
+  XhIcon,
+  XhDateType,
+  XhProgress,
+  XhPie,
+  XhLine,
+  XhBar
 }

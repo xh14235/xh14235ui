@@ -19,6 +19,16 @@
 </template>
 
 <script>
+/*
+圆形circle
+圆角round
+颜色color
+尺寸size
+禁用disabled
+等待loading
+朴素plain
+
+*/
 export default {
   name: "XhButton",
   props: {
